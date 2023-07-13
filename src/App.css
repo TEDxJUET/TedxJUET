@@ -19,6 +19,10 @@ body{
     background-size:100%;
     font-family: 'Montserrat', sans-serif;
     font-display:white;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .navbar{
@@ -152,6 +156,7 @@ body{
     width:100%;
     bottom:0; 
 }
+
 
 .footer-span{
     display: flex;
@@ -338,14 +343,60 @@ body{
         background-size: cover;
     }
     .navbar{
-        font-size: 0.8em;
+        height: 15em;
+        max-width: 100%;
+        position: relative;
+    }
+    .navspan{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-left: auto;
+    }
+    .navbar div{
+        margin-bottom: 10px;
+    }
+    .main-logo{
+        position: absolute;
+        top: 20em;
+        left: 0;
+    }
+    .main-logo img{
+        width: 100%;
+        height: auto;
+    }
+    .tagline{
+        font-size: 1.5em;
+        width: 100%;
+        text-align: center;
+        position:absolute;
+        top: 29rem;
+        left:0;
     }
     .main-container{
-     font-size: 1em;  
+     font-size: 1em;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     height: calc(100vh - 15em);  
+    }
+
+    .main-container a{
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        top: 35rem;
+        left: 0;
     }
 
     .footer{
-        font-size:0.5em;
+        font-size:1em;
     }
 }
 
