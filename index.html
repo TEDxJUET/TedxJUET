@@ -657,6 +657,27 @@
                     </div>
                 </div>
             </div>
+            <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script> 
+        function sendEmail()
+        {
+             Email.send(
+                {
+                   SecureToken: "4f723339-18fe-4abf-b829-31382d7b0156", 
+                    To : 'aksht1211t@gmail.com',
+                    From : document.getElementById("email").value,
+                    Subject : "Tedxjuet contact Enquiry",
+                    Body : "Name: " + document.getElementById("name "+"name-2").value
+                    +"Email:" + document.getElementById("email").value
+                    +"Phone No: " + document.getElementById("phno").value
+                    +"Message: " + document.getElementById("message").value
+
+                }).then(
+                      message => alert("Message sent successfully")
+                       );
+        }
+    
+    </script>
         </footer>
         <!-- Footer Area End -->
 

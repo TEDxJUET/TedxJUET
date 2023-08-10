@@ -53,8 +53,8 @@
                                 <!-- <li class="active"><a href="index.html">Home</a></li> -->
                                 <li><a href="index.html">Home</a></li>
                                 <li><a href="about.html">About</a></li>
-                                <li><a href="team.html">Team</a></li>
                                 <li><a href="speakers.html">Speakers</a></li>
+                                <li><a href="team.html">Team</a></li>
                                 <li><a href="https://www.ted.com/tedx/events/26452">Events</a></li>
                             </ul>
 
@@ -110,7 +110,7 @@
                             <p>For specific enquiries, kindly email us at <a href="mailto:tedx@juetguna.in">tedx@juetguna.in</a></p>
                         </div>
                         <div class="contact_form">
-                            <form action="mail.php" method="post">
+                            <form onsubmit="sendEmail(); reset(); return false;">
                                 <div class="contact_input_area">
                                     <div class="row">
                                         <!-- Form Group -->
@@ -145,7 +145,7 @@
                                         </div>
                                         <!-- Button -->
                                         <div class="col-12">
-                                            <button type="submit" class="btn confer-btn">Send Message <i class="zmdi zmdi-long-arrow-right"></i></button>
+                                            <button type="submit" class="btn confer-btn" >Send Message <i class="zmdi zmdi-long-arrow-right"></i></button>
                                         </div>
                                     </div>
                                 </div>
@@ -333,6 +333,27 @@
                 </div>
             </div>
         </div>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script> 
+        function sendEmail()
+        {
+             Email.send(
+                {
+                   SecureToken: "4f723339-18fe-4abf-b829-31382d7b0156", 
+                    To : 'aksht1211t@gmail.com',
+                    From : document.getElementById("email").value,
+                    Subject : "Tedxjuet contact Enquiry",
+                    Body : "Name: " + document.getElementById("name "+"name-2").value
+                    +"Email:" + document.getElementById("email").value
+                    +"Phone No: " + document.getElementById("phno").value
+                    +"Message: " + document.getElementById("message").value
+
+                }).then(
+                      message => alert("Message sent successfully")
+                       );
+        }
+    
+    </script>
     </footer>
     <!-- Footer Area End -->
 
@@ -347,6 +368,27 @@
     <script src="js/confer.bundle.js"></script>
     <!-- Active -->
     <script src="js/default-assets/active.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script> 
+        function sendEmail()
+        {
+             Email.send(
+                {
+                   SecureToken: "4f723339-18fe-4abf-b829-31382d7b0156", 
+                    To : 'aksht1211t@gmail.com',
+                    From : document.getElementById("email").value,
+                    Subject : "Tedxjuet contact Enquiry",
+                    Body : "Name: " + document.getElementById("name "+"name-2").value
+                    +"Email:" + document.getElementById("email").value
+                    +"Phone No: " + document.getElementById("phno").value
+                    +"Message: " + document.getElementById("message").value
+
+                }).then(
+                      message => alert("Message sent successfully")
+                       );
+        }
+    
+    </script>
 
 </body>
 
