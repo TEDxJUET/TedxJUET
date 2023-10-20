@@ -1,0 +1,70 @@
+body{
+    background: rgb(71, 0, 0) !important;
+    padding: 20px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.simple_form{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: #e62b1e;
+    padding: 50px;
+}
+
+.full-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+label{
+    margin-right: 25px;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.img-logo img{
+    width: 50px;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.full-content div{
+    margin-bottom: 20px;
+}
+.full-content button{
+    margin-bottom: 10px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-weight: bold;
+    margin-top: 50px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #8d1111;
+    border-color: #ffffff;
+}
+.full-content button:hover{
+    border-color: #c6c6c6;
+    background-color: #ed0000;
+}
+
+@media screen and (max-width: 768px) {
+    .simple_form {
+      width: 100%;
+    }
+  }
