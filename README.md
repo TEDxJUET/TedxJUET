@@ -51,3 +51,10 @@ Here are a few things you can do that will increase the likelihood of your pull 
 ## Website for TEDxJUET
 
 [tedxjuet.com](https://tedxjuet.com)
+
+## Contributors
+
+<a href="https://github.com/TEDxJUET/TedxJUET/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=TEDxJUET/TedxJUET" />
+</a>
+
