@@ -871,6 +871,8 @@ input:required {
     .confer-gb-btn:hover::after, .confer-gb-btn:focus::after {
       opacity: 0; }
 
+  
+
 /* :: 7.0 Header Area CSS */
 .classy-nav-container {
   background-color:transparent;
@@ -952,6 +954,52 @@ input:required {
     box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15); }
     .header-area.sticky .classy-navbar {
       height: 75px; }
+
+/* Navbar mobile responsive */
+@media screen and (max-width: 768px) {
+  .classy-nav-container.breakpoint-on {
+      background-color: var(--secondary-color); /* Background color for the mobile header */
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 999;
+  }
+
+  .classy-menu {
+      background-color: var(--secondary-color); /* Background color for the mobile menu */
+  }
+
+  .classy-navbar-toggler {
+      display: block;
+  }
+
+  .classy-navbar-toggler .navbarToggler {
+      display: block;
+  }
+
+  .classynav {
+      display: none;
+  }
+
+  .responsive-menu {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .responsive-menu li {
+      margin-bottom: 15px; /* Adjust spacing between items */
+  }
+
+  .btn.confer-btn {
+      margin-top: 20px; /* Adjust button spacing */
+  }
+
+  .classycloseIcon {
+      display: block;
+  }
+}
+
 
 /* :: 8.0 Hero Area CSS */
 .welcome-area {
