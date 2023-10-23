@@ -1,9 +1,21 @@
 # TEDxJUET
+![image](https://github.com/TEDxJUET/TedxJUET/assets/108113313/d53cce1e-e28b-48d7-adf4-80e8616f861c)
 
 In the spirit of ideas worth spreading, TED has created TEDx which is a program of local, self-organized events that bring people together to share a TED-like experience, around a specific theme. TEDx events are independently licensed experiences which bring together thinkers, innovators and artists in one assembly, with the intention of promoting “Ideas Worth Spreading.”
 
-TEDxJUET brings the unique TED experience to Guna. TEDxJUET is a curated, day-long, immersive live experience bringing speakers, artists, and audience members together with the purpose of sharing perspectives, sparking deep discussions, and inspiring positive networks and impactful actions around ideas that matter. Our aim is to provide a platform where thinkers, visionaries, and learners will be inspired to give talks on a wide array of idea-focused topics to foster learning, provoke conversations that matter, and inspire others.
+TEDxJUET brings the unique TED experience to Guna. TEDxJUET is a curated, day-long, and immersive live experience. That brings speakers, artists, and audience members together. All with the purpose of sharing perspectives, sparking deep discussions, inspiring positive networks, and impactful actions around ideas that matter. Our aim is to provide a platform where thinkers, visionaries, and learners will be inspired to give talks on a wide array of idea-focused topics. To foster learning, provoke conversations that matter, and inspire others.
 
+Previous talks:
+
+https://www.youtube.com/watch?v=rAqECHVBX8k
+
+https://www.youtube.com/watch?v=Pnc_qSlhW5w
+
+https://www.youtube.com/watch?v=w4-dYULCLYU
+
+https://www.youtube.com/watch?v=rU6f-slsvBU
+
+https://www.youtube.com/watch?v=yUoiS_dio5I
 ## Contributing
 
 [pr]: https://github.com/raise-dev/hacktoberfest/compare
@@ -20,8 +32,8 @@ Before opening an issue, please be sure that your issue hasn't already been aske
 
 Here are a few things that will help us help resolve your issues:
 
-- A descriptive title that gives an idea of what your issue refers to
-- A thorough description of the issue, (one word descriptions are very hard to understand)
+- A descriptive title that gives an idea of what your issue refers to.
+- A thorough description of the issue (one word descriptions are very hard to understand).
 - Screenshots (if appropriate)
 - Links (if appropriate)
 
@@ -53,8 +65,6 @@ Here are a few things you can do that will increase the likelihood of your pull 
 [tedxjuet.com](https://tedxjuet.com)
 
 ## Contributors
-
-<a href="https://github.com/TEDxJUET/TedxJUET/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=TEDxJUET/TedxJUET" />
+<a href="https://github.com/TedxJuet/TedxJuet/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=TedxJuet/TedxJuet" />
 </a>
-
