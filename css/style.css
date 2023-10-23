@@ -1279,8 +1279,8 @@ text-shadow: none;
 		border: 0;
 		box-shadow: 0 0 0 1px #ccc;
 		padding: .2em;
-                -moz-border-radius: 5px;
-                -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
 	}
 	.centered {
 		margin-left: auto;
@@ -1290,4 +1290,11 @@ text-shadow: none;
 		font-size: 2em;
 	}
 
-	
+/*add hover effects and improve styles of Speaker's Panel in Home page*/
+.single-speaker-area:hover{
+	box-shadow: rgba(0, 0, 0, 0.889) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+	transition: box-shadow 0.3s ease;
+}
+
+
+
