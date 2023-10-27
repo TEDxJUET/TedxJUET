@@ -1295,6 +1295,17 @@ text-shadow: none;
 	box-shadow: rgba(0, 0, 0, 0.889) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
 	transition: box-shadow 0.3s ease;
 }
+.main-footer-area{
+	text-align: center;
+	display:flex;
+	justify-content:space-between;
+	margin-top: 30px;
+}
+.footer-logo{
+	margin-top: -10px;
 
-
-
+}
+.widget-title{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 30px;
+}
