@@ -1,9 +1,9 @@
 # TEDxJUET
 ![image](https://github.com/TEDxJUET/TedxJUET/assets/108113313/d53cce1e-e28b-48d7-adf4-80e8616f861c)
 
-In the spirit of ideas worth spreading, TED has created TEDx which is a program of local, self-organized events that bring people together to share a TED-like experience, around a specific theme. TEDx events are independently licensed experiences which bring together thinkers, innovators and artists in one assembly, with the intention of promoting “Ideas Worth Spreading.”
+In the spirit of ideas worth spreading, TED has established TEDx, a program of locally self-organized events that bring people together to create a TED-like experience, centered around a specific theme. TEDx events are independently licensed experiences which bring together thinkers, innovators and artists in one assembly, with the intention of promoting “Ideas Worth Spreading.”
 
-TEDxJUET brings the unique TED experience to Guna. TEDxJUET is a curated, day-long, and immersive live experience. That brings speakers, artists, and audience members together. All with the purpose of sharing perspectives, sparking deep discussions, inspiring positive networks, and impactful actions around ideas that matter. Our aim is to provide a platform where thinkers, visionaries, and learners will be inspired to give talks on a wide array of idea-focused topics. To foster learning, provoke conversations that matter, and inspire others.
+TEDxJUET brings the unique TED experience to Guna. TEDxJUET is a curated, day-long, and immersive live experience, that brings speakers, artists, and audience members together. All with the purpose of sharing perspectives, sparking deep discussions, inspiring positive networks, and impactful actions around ideas that matter. Our aim is to provide a platform where thinkers, visionaries, and learners will be inspired to give talks on a wide array of idea-focused topics. To foster learning, provoke conversations that matter, and inspire others.
 
 Previous talks:
 
