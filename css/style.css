@@ -1295,6 +1295,10 @@ text-shadow: none;
 	box-shadow: rgba(0, 0, 0, 0.889) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
 	transition: box-shadow 0.3s ease;
 }
+.speaker-single-thumb img:hover{
+	box-shadow: rgba(0, 0, 0, 0.889) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+	transition:transform(1.5em);
+}
 .main-footer-area{
 	text-align: center;
 	display:flex;
